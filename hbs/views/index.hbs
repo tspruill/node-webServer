@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Weather application</title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        
+    </head>
+    <body>
+        <div class="main">
+       {{>header}}
+            <form>
+                <label for="address"> Enter location: </label>
+                <input type="text" name="address"><br><br>
+                <input type="submit" value="submit">
+            </form>
+            <p id="m1"></p>
+            <p id="m2"></p>
+        </div>
+        {{>footer}}
+        <script src="/js/client.js"></script>
+    </body>
+</html>
